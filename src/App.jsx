@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className=' w-full h-screen p-2'>
-        <div className='w-[400px] m-auto '>
+        <div className='w-[400px] m-auto'>
           <img src={logoImage} alt="logo-Image" />
         </div>
 
@@ -53,7 +53,7 @@ function App() {
             </div>
         </div>
 
-        <div className='mt-[3%] font-medium'>
+        <div className='mt-[3%] font-medium text-center'>
         INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION. 
         </div>
 
@@ -61,7 +61,7 @@ function App() {
           <img src={instrumenstImage} alt="" />
         </div>
 
-        <div className='text-center mt-2'>
+        <div className='text-center mt-2 text-[15px]  font-medium'>
           Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors 
         </div>
 
@@ -78,7 +78,7 @@ function App() {
         </div>
 
         {/* footer */}
-        <div className='w-full h-[105px] flex bg-red-500 '>
+        <div className='w-full h-[105px] flex bg-red-500 mt-5  '>
           <div className='flex m-auto bg-red-500 gap-x-2'>
             <div className='bg-white w-[40px] h-[35px] rounded-full '>
             <Phone className='m-auto mt-1' />
@@ -107,6 +107,10 @@ function App() {
           </div>
 
         </div>
+
+        
+        <div className='mt-2'>
+          </div>
       </div>
     </>
   )
