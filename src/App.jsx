@@ -42,7 +42,7 @@ function App() {
                 </ul>
 
                 {/* image */}
-                <div className='mr-4 mt-2'>
+                <div className='mr-4 mt-3'>
                   <img src={avardRecieveImage} alt="avardimage" />
                 </div>
 
